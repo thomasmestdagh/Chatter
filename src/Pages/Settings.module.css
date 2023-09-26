@@ -1,0 +1,6 @@
+.wrapper {
+  height: 100svh;
+  width: 100%;
+  color: var(--text-color);
+  background-color: var(--background-color);
+}

@@ -1,0 +1,92 @@
+.wrapper {
+  background-color: black;
+  color: white;
+  min-width: 10rem;
+  height: 100svh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.nav,
+.settings {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  /* margin: 0 auto; */
+}
+
+.nav {
+  overflow-y: auto;
+  scrollbar-gutter: stable both-edges;
+}
+
+.settings {
+  text-align: center;
+}
+
+.nav::-webkit-scrollbar {
+  display: none;
+}
+
+.nav:hover::-webkit-scrollbar {
+  display: inline-block;
+}
+
+.seperator {
+  width: 5rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+  border: 1px solid grey;
+}
+
+.sideNavButton {
+  transition: 0.2s;
+}
+
+.sideNavButton:hover {
+  transform: scale(1.1);
+}
+
+.sideNavButton:not(:first-child) {
+  margin-top: 2.5rem;
+}
+
+.addServer {
+  border: 1px solid white;
+  position: relative;
+}
+
+.addServer span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  font-size: 3.2rem;
+  transform: translate(-50%, -50%);
+}
+
+/* settings */
+.sideNavSettingButton {
+  margin: 0 auto;
+  margin-top: 2rem;
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+  position: relative;
+  width: 5rem;
+  height: 5rem;
+  transition: 0.2s all;
+}
+
+.sideNavSettingButton:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.sideNavSettingButton svg {
+  width: 2.5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

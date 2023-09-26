@@ -1,0 +1,24 @@
+.wrapper {
+  width: 5rem;
+  height: 5rem;
+  margin: 0 auto;
+  background-color: transparent;
+  border-radius: 1rem;
+  overflow: hidden;
+  border-radius: 1rem;
+  /* transition: 0.2s all; */
+}
+
+.imageBox {
+  width: 100%;
+  height: 100%;
+}
+
+.img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.round {
+  border-radius: 50%;
+}
